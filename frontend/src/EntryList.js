@@ -8,6 +8,7 @@ const EntryList = (props) => {
                 <div className="entry-preview" key={entry.id}>
                     <h2>{entry.title}</h2>
                     <p>{entry.date}</p>
+                    <button onClick={() => props.handleDelete(entry.id)}>Delete</button>
                 </div>
             ))}
         </div>
