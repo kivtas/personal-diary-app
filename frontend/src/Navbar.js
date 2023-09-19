@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -5,10 +6,10 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>My Diary</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Entry</a>
-                <a href="/profile">Profile Insights</a>
-                <a href="/logout">Log Out</a>
+                <Link to="/">Home</Link>
+                <Link to="/create">New Entry</Link>
+                <Link to="/profile">Profile Insights</Link>
+                <Link to="/logout">Log Out</Link>
             </div>
         </nav>
     );
