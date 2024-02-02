@@ -10,9 +10,8 @@ const EntryList = (props) => {
                 <div className="entry-preview" key={entry.id}>
                     <Link to={`/entries/${entry.id}`}>
                         <h2>{entry.title}</h2>
-                        <p>{entry.date}</p>
+                        <div>{entry.date}</div>
                     </Link>
-                    <button onClick={() => props.handleDelete(entry.id)}>Delete</button>
                 </div>
             ))}
         </div>

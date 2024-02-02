@@ -1,22 +1,16 @@
 {
-    "entries": [
-        {
-            "title": "today sucked",
-            "content": "Today I was really bored and didn't know what to do. I was very sad.",
-            "date": "10/30/2024",
-            "id": 1
-        },
-        {
-            "title": "today was so good!",
-            "content": "Much better day today! met up with my friends and my gf and it was lit asf.",
-            "date": "10/31/2024",
-            "id": 2
-        },
-        {
-            "title": "today was normal",
-            "content": "Today was a stndard day. I didn't really do all that much tbh.",
-            "date": "11/1/2024",
-            "id": 3
-        } 
-    ]
+  "entries": [
+    {
+      "title": "Meh, mid day",
+      "body": "Today was a pretty sad day, that's all I have to say",
+      "date": "December 2, 2023",
+      "id": 2
+    },
+    {
+      "title": "Sad days",
+      "body": "hi hi hiiiii",
+      "date": "December 2, 2023",
+      "id": 3
+    }
+  ]
 }
